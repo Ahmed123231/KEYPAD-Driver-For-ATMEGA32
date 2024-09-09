@@ -26,9 +26,9 @@ u8 KEYPAD_ButtonValues[KEYPAD_ROWS][KEYPAD_COLUMNS]={
 void KEYPAD_init(void){
 	
 	u8 Loc_u8_arr_col[4]={ KEYPAD_COLUMN_1_PIN,
-						   KEYPAD_COLUMN_2_PIN,
-						   KEYPAD_COLUMN_3_PIN,	
-						   KEYPAD_COLUMN_4_PIN	
+				   KEYPAD_COLUMN_2_PIN,
+				   KEYPAD_COLUMN_3_PIN,	
+				   KEYPAD_COLUMN_4_PIN	
 	};
 
 	u8 Loc_u8_arr_row[4]={ KEYPAD_ROW_1_PIN,
