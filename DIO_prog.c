@@ -61,7 +61,7 @@ void DIO_voidSetPinVal(u8 copy_u8port , u8 copy_u8pin ,u8 copy_u8val){
 
 /************* Pin Get Value Function *************/
 
-u8	 DIO_u8GetPinVal(u8 copy_u8port , u8 copy_u8pin){
+u8 DIO_u8GetPinVal(u8 copy_u8port , u8 copy_u8pin){
 	
 	u8 Loc_u8value=0;
 	
